@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('tanah', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_tanah');
+            $table->string('kode_tanah')->unique();
+            $table->string('luas');
+            $table->string('no_sertifikat');
+
             $table->timestamps();
         });
     }
