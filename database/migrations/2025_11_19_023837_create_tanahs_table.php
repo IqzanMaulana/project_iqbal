@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('kode_tanah')->unique();
             $table->string('luas');
             $table->string('no_sertifikat');
-
             $table->timestamps();
         });
     }

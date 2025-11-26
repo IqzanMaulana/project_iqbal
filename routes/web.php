@@ -11,7 +11,7 @@ use App\Http\Controllers\TanahController;
 // use App\Models\Barang; ini dihapus
 
 Route::get('/', function () {
-    return view('home', ['name' => 'Jane Doe']);
+    return view('home', ['name' => 'Iqbal Fauzan']);
 });
 
 // Route::get('/barang', function () {
