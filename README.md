@@ -1,61 +1,107 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+📘 SIMASET – Sistem Manajemen Aset
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+SIMASET adalah aplikasi sederhana untuk mengelola data aset seperti barang inventaris, peralatan, dan kebutuhan administrasi lainnya.
+Aplikasi ini dibangun menggunakan Laravel, sehingga mudah dikembangkan dan sudah mengikuti standar modern web development.
 
-## About Laravel
+📦 Fitur Utama
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Tambah aset
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Edit aset
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Hapus aset
 
-## Learning Laravel
+Lihat detail aset
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Daftar aset lengkap
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Validasi input
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Migrasi database Laravel
 
-## Laravel Sponsors
+Struktur project rapi & mudah dipahami
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+🧰 Fitur Tambahan (opsional kalau ada di project kamu)
 
-### Premium Partners
+Upload foto aset
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Kategori aset
 
-## Contributing
+Pencarian aset
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Authentication (login/register)
 
-## Code of Conduct
+Export data (PDF/Excel)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+(Kalau kamu mau, nanti bisa aku sesuaikan biar bener-bener mirip project yang kamu bikin.)
 
-## Security Vulnerabilities
+🛠️ Teknologi yang Digunakan
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Laravel
 
-## License
+PHP 8+
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Composer
+
+MySQL / MariaDB
+
+Blade Template
+
+🚀 Cara Install Project
+1. Clone Repository
+git clone https://github.com/username/simaset.git
+
+2. Masuk ke Folder Project
+cd simaset
+
+3. Install Dependencies
+composer install
+
+4. Copy File .env
+cp .env.example .env
+
+5. Generate App Key
+php artisan key:generate
+
+6. Sesuaikan Database di .env
+
+Contoh:
+
+DB_DATABASE=simaset
+DB_USERNAME=root
+DB_PASSWORD=
+
+7. Jalankan Migrasi
+php artisan migrate
+
+▶️ Menjalankan Aplikasi
+php artisan serve
+
+
+Kunjungi:
+
+http://localhost:8000
+
+🗂️ Struktur Folder (singkat)
+app/
+resources/
+routes/
+database/
+public/
+
+📄 License
+
+Project ini bebas digunakan dan dikembangkan untuk kebutuhan belajar maupun produksi.
+
+💬 Catatan
+
+Jika kamu membutuhkan fitur tambahan atau struktur project lebih lengkap, tinggal bilang — aku bantu siapin.
+
+Kalau mau, aku juga bisa bikinin:
+✔ Banner README
+✔ Badge GitHub (status build, license, PHP version)
+✔ Screenshot halaman web
+✔ Penjelasan database (ERD / struktur tabel)
+
+https://github.com/user-attachments/assets/d7689460-61bc-4424-97da-ede234516c67
+
